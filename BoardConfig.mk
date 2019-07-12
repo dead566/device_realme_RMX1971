@@ -110,6 +110,9 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # Enable stats logging in LMKD
 TARGET_LMKD_STATS_LOG := true
 
+# Gestures
+TARGET_GESTURES_NODE := "/proc/touchpanel/gesture_enable"
+
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
 TARGET_NO_RPC := true
@@ -148,7 +151,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_USES_QCOM_HARDWARE := true
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 TARGET_USES_NON_LEGACY_POWERHAL := true
 
 # Recovery
