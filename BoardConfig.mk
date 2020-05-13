@@ -109,6 +109,10 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # Enable stats logging in LMKD
 TARGET_LMKD_STATS_LOG := true
 
+# FM
+BOARD_HAS_QCA_FM_SOC := "cherokee"
+BOARD_HAVE_QCOM_FM := true
+
 # Gestures
 TARGET_GESTURES_NODE := "/proc/touchpanel/gesture_enable"
 
