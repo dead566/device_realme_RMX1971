@@ -333,11 +333,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ParanoidDoze
 
-# Perf
-PRODUCT_BOOT_JARS += \
-    QPerformance \
-    UxPerformance
-
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
@@ -350,6 +345,7 @@ PRODUCT_PACKAGES += \
 
 # QTI common
 TARGET_COMMON_QTI_COMPONENTS := \
+    perf \
     bt
 
 # RenderScript HAL
