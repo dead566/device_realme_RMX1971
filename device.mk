@@ -348,6 +348,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
+# QTI common
+TARGET_COMMON_QTI_COMPONENTS := \
+    bt
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
