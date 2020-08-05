@@ -60,7 +60,7 @@ ro.netflix.bsp_rev=Q670-14477-1
 
 # ParanoidDoze
 ro.sensor.proximity=true
-ro.sensor.pickup=realme.sensor.pickup
+ro.sensor.pickup=android.sensor.tilt_detector
 ro.sensor.pocket=realme.sensor.pocket
 
 # Perf
