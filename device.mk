@@ -329,6 +329,10 @@ PRODUCT_PACKAGES += \
     libOmxVidcCommon \
     libstagefrighthw
 
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
+
 # Perf
 PRODUCT_BOOT_JARS += \
     QPerformance \
